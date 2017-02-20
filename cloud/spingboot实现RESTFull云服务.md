@@ -49,7 +49,7 @@
 ```
 server.port: 8443
 server.ssl.key-store: keystore.p12
-server.ssl.key-store-password: mediawin999
+server.ssl.key-store-password: zzccnn
 server.ssl.keyStoreType: PKCS12
 server.ssl.keyAlias: tomcat
 ```
