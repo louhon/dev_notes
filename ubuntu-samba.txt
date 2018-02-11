@@ -1,0 +1,16 @@
+config：
+
+add to global section
+
+security = user 
+
+[share]
+    path = /mnt/hdd
+    available = yes
+    browseable = yes
+    writable = yes
+    create mask = 0644
+    
+if root is used to access the folder, set a samba passwd first
+
+smbpasswd -a root
