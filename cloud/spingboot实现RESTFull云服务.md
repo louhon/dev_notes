@@ -36,7 +36,7 @@
 ```
 
 
-## releasee时碰到的问题
+## release时碰到的问题
 
 右键单击项目名称，Open Module Settings->Project Settings->Artifacts 添加一个新的artifact 。 选择 copy to the output directory and link via manifest。注意META-INF/MANIFEST.INF 应该放在src\main\resources下面，在添加artifact前保证该目下没有MANIFEST.INF文件。
 
