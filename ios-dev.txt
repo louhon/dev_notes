@@ -1,0 +1,6 @@
+1，合并静态库
+lipo -create ../ios-build_armv7/libap4.a ../ios-build_arm64/libap4.a -output libap4.a
+
+2，查看库的信息
+lipo -info libap4.a
+
