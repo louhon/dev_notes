@@ -14,3 +14,10 @@ security = user
 if root is used to access the folder, set a samba passwd first
 
 smbpasswd -a root
+
+
+access windows share from ubuntu:
+
+mount -t cifs //192.168.0.100/louhon /mnt/win/ -o user=root
+
+root 为 windows 账户
